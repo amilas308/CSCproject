@@ -1,7 +1,7 @@
 from django.urls import path
 
 from . import views
-
+# url for the login,logout,ticket,vehicles
 app_name = 'base'
 urlpatterns = [
     path('', views.dashboard, name='dashboard'),
